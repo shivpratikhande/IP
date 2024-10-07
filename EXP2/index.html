@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ola - Company Profile</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+    <header class="header">
+        <div class="container">
+            <img src="logo.png" alt="Ola Logo" class="logo">
+            <h1>Ola Cabs</h1>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Ola is a leading cab service provider, connecting passengers to reliable transportation. We offer a range of mobility solutions to millions of customers across the world, with a focus on convenience, affordability, and innovation.</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Ride-Hailing Services</li>
+                <li>Outstation and Long-Distance Rides</li>
+                <li>Car Rentals</li>
+                <li>Electric Vehicles</li>
+                <li>Corporate Transportation Solutions</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="/submit" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <br><br>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Ola Cabs</p>
+            <p>
+                Follow us on 
+                <a href="#" class="social-link">Facebook</a>, 
+                <a href="#" class="social-link">Twitter</a>, 
+                <a href="#" class="social-link">Instagram</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

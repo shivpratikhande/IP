@@ -1,0 +1,116 @@
+/* Web fonts and general styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+.header {
+    background-color: #ffcc00;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #ffc107;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* About Us Section */
+.about {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about p::first-letter {
+    font-size: 150%;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Services Section */
+.services ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.services li {
+    margin: 10px 0;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.services li:hover {
+    color: #ffcc00;
+    cursor: pointer;
+}
+
+/* Contact Us Form */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.contact input, 
+.contact textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-link {
+    color: #ffc107;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+    color: #fff;
+}
